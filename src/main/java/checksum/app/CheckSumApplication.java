@@ -520,7 +520,7 @@ public class CheckSumApplication {
 						algorithm = DigestAlgorithmEnum.SHA1;
 					}
 					// SHA-224
-					if (hash.equalsIgnoreCase(text_sha1.getText())) {
+					if (hash.equalsIgnoreCase(text_sha224.getText())) {
 						algorithm = DigestAlgorithmEnum.SHA224;
 					}
 					// SHA-256
